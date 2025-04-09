@@ -5,7 +5,6 @@ programa
 	{
 		real numero1, numero2, resultado=0.0
 		caracter operador
-    
 //Pede para o usuário informar 2 números e 1 operador
 		escreva("Digite o primeiro número: ")
 		leia (numero1)
@@ -34,6 +33,11 @@ programa
 		senao se(operador == '/')
 		{
 			resultado = numero1 / numero2
+		}
+		senao
+		{
+			escreva("Operador inválido! Use +, -, * ou /\n")
+			retorne
 		}
 		
 		limpa()

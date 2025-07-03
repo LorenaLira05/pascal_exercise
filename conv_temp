@@ -1,7 +1,0 @@
-real tempc, tempf
-escreva("Digite a temperatura em celcius:")
-leia (tempc)
-
-tempf = (tempc * 9/5) + 32
-
-escreva("A temperatura em Fahrenheit é:" + tempf + " graus")

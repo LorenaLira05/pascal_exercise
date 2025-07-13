@@ -59,7 +59,7 @@ begin
     if vetor[i] = valor then
       exit(i);
   end;
-  exit(-1); // Retorna -1 se o valor n„o for encontrado
+  exit(-1); // Retorna -1 se o valor n√£o for encontrado
 end;
 
 // Implementacao da Busca Binaria
@@ -126,7 +126,7 @@ begin
     writeln('Opcao invalida. O vetor nao sera ordenado.');
   end;
 
-  // Exibe o vetor ordenado (ou nao, se a opÁao for invalida)
+  // Exibe o vetor ordenado (ou nao, se a op√ßao for invalida)
   if (escolha = 1) or (escolha = 2) then
   begin
     for i := 1 to TAMANHO_VETOR do
@@ -149,7 +149,7 @@ begin
   else
     writeln('Busca Linear: Valor nao encontrado.');
 
-  // 5.2 Busca Binaria (o vetor precisa estar ordenado para a busca bin·ria funcionar corretamente)
+  // 5.2 Busca Binaria (o vetor precisa estar ordenado para a busca bin√°ria funcionar corretamente)
   if (escolha = 1) or (escolha = 2) then
   begin
     posicaoBinaria := BuscaBinaria(numeros, valorBusca);

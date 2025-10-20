@@ -17,7 +17,6 @@ Os arquivos estão organizados de forma sequencial, com cada arquivo `.pas` cont
 | `5-sort.pas` | **Algoritmos de Ordenação** | Exemplos de implementação de algoritmos de ordenação (Ex: Bubble Sort, Selection Sort, etc.). |
 | `6-matrix.pas` | **Manipulação de Matrizes** | Exercícios envolvendo operações e manipulação de arrays bidimensionais. |
 | `7-Fatorial.pas` | **Recursividade** | Exemplo de cálculo de Fatorial, geralmente utilizado para demonstrar o conceito de funções recursivas. |
-| `[Adicione Outros Arquivos].pas` | **[Tópico]** | [Descrição] |
 
 ## 💻 Como Compilar e Rodar
 

@@ -19,7 +19,7 @@ begin
     atual := 1;
     fatorial := 1;
 
-    while atual <= numero do //
+    while atual <= numero do 
     begin
       fatorial := fatorial * atual; 
       atual := atual + 1;
@@ -31,4 +31,5 @@ begin
   ReadLn;
 
 end.
+
 

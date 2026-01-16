@@ -19,9 +19,9 @@ begin
     atual := 1;
     fatorial := 1;
 
-    while atual <= numero do // Itera 'atual' at‚ o valor informado
+    while atual <= numero do //
     begin
-      fatorial := fatorial * atual; // C lcula a pr¢xima multipllica‡Æo do fatorial
+      fatorial := fatorial * atual; 
       atual := atual + 1;
     end;
 
@@ -31,3 +31,4 @@ begin
   ReadLn;
 
 end.
+
